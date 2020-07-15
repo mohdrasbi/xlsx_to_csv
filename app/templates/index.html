@@ -1,0 +1,14 @@
+<br>
+<div style="text-align: center;">
+	{% if success %}
+		<div style="color: green;"> {{ upload_file_msg }} </div>
+	{% else %}
+		<div style="color: red;"> {{ upload_file_msg }} </div>
+	{% endif %}
+
+	<h3>Upload File</h3>
+	<form method="post" enctype="multipart/form-data">
+		<input type="file" name="file">
+		<input type="submit" name="Upload">
+	</form>
+</div>
