@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM nickgryg/alpine-pandas:latest
 
 RUN echo "http://mirror.leaseweb.com/alpine/edge/community" >> /etc/apk/repositories
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
@@ -19,6 +19,4 @@ WORKDIR /opt/app
 RUN adduser -D testuser
 USER testuser
 
-# EXPOSE 5000
-# CMD ["python3", "main.py"]
-CMD python3 main.py $PORT
+CMD python3 main.py 
