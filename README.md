@@ -9,7 +9,7 @@
 - Used docker to containerize the app
 
 ### How to run:
-- Clone repository: git clone https://github.com/mohdrasbi/xlsx_to_csv
+- Clone repository: `git clone https://github.com/mohdrasbi/xlsx_to_csv`
 - Locally:
   - Requirements: 
     * Python 3
