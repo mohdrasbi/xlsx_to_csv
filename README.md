@@ -9,11 +9,11 @@
 - Used docker to containerize the app
 
 ### How to run:
-- Clone repository: `git clone https://github.com/mohdrasbi/xlsx_to_csv`
+- Clone repository: Run `git clone https://github.com/mohdrasbi/xlsx_to_csv`
 - Locally:
   - Requirements: 
     * Python 3
-    * Flask and Pandas packages: `pip3 install pandas flask`
+    * Flask and Pandas packages: Run `pip3 install pandas flask`
   - Running the app:
     * Go to xlsx_to_csv/app directory
     * Run `python3 main.py`
